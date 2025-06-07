@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <l10n>
 	<texts>
+		<!-- updates v1.2.0.2 -->
+		<text name="bc_fieldSize" text="Taille de champ" />
+		<text name="bc_fieldSize_tooltip" text="Définit les seuils entre les tailles de champs petit/moyen et moyen/grand en hectares. La classification des champs (petit, moyen, grand) est utilisée pour l’attribution des véhicules de location pour les contrats." />
 		<!-- updates v1.2.0.0 -->
-		<text name="bc_vehicleBox" text="Vehicle Selection" />
+		<text name="bc_vehicleBox" text="sélection de véhicules" />
 		<!-- updates v1.1.1.3 -->
 		<text name="bc_stayNew" text="Restez sur la liste des nouveaux contrats" />
 		<text name="bc_stayNew_tooltip" text="Ne passez pas à la liste des contrats actifs lorsqu'un nouveau contrat est accepté." />
@@ -121,6 +124,8 @@
 		<text name="bc_hardLease_tooltip" text="Nombre de contrats réussis pour un agriculteur PNJ, avant de vous prêter leur équipement. " />
 		<text name="bc_hardExpire" text="Deadline" />
 		<text name="bc_hardExpire_tooltip" text="À la fin de la période, tous les contrats actifs doivent être terminés." />
+		<text name="bc_hardLimit" text="Contrats par Mois" />
+		<text name="bc_hardLimit_tooltip" text="Nombre de contrats maximum qui peut être accépté par mois. (-1: pas de limit, 0: pas de contrats)" />
 
 		<text name="bc_discountModeTitle" text="Remise d'achat sur le terrain" />
 		<text name="bc_discountMode" text="Activé" />
